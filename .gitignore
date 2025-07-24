@@ -1,0 +1,6 @@
+server-java/.mvn
+server-java/.idea
+server-java/target
+client-python/.venv
+.idea
+**/dependency-reduced-pom.xml
