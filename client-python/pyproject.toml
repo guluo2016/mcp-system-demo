@@ -8,3 +8,6 @@ dependencies = [
     "google-genai>=1.27.0",
     "mcp[cli]>=1.12.1",
 ]
+
+[tool.setuptools.packages.find]
+where = ["src"]

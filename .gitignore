@@ -2,5 +2,8 @@ server-java/.mvn
 server-java/.idea
 server-java/target
 client-python/.venv
+client-python/build
+client-python/**/client_python.egg-info
+client-python/**/__pycache__
 .idea
 **/dependency-reduced-pom.xml

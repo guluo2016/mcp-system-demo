@@ -36,7 +36,6 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <!-- 使用该插件进行打包编译 -->
         <artifactId>maven-shade-plugin</artifactId>
         <version>3.2.1</version>
         <executions>
@@ -48,7 +47,6 @@
             <configuration>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <!-- 在这里指定主类 -->
                   <mainClass>com.guluo.McpServerDemo</mainClass>
                 </transformer>
               </transformers>
